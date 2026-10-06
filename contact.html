@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Sashvitha Sri through the accessible portfolio contact form.">
+    <meta name="author" content="Sashvitha Sri">
+    <meta name="robots" content="index, follow">
+    <title>Contact | Sashvitha Sri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav aria-label="Main navigation" role="navigation">
+        <h1>Contact Me</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Get in Touch</h2>
+
+        <form aria-label="Contact form" action="#" method="post">
+            <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" autocomplete="name" required>
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+            </p>
+
+            <p>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </p>
+
+            <p>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </p>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Sashvitha Sri. All rights reserved.</p>
+</footer>
+</body>
+</html>
